@@ -1,0 +1,63 @@
+.blog-page-header {
+    margin: 0 auto;
+    width: $nav-width;
+    height: 300px;
+    background-image: linear-gradient(
+        (rgba($site-pink, 0.75)),
+        (rgba($site-pink, 0.75))),
+        url(../images/blog.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+
+        .blog-page-date {
+            margin: 0 auto;
+            background-color: $site-pink;
+            height: 155px;
+            width: 155px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: $site-white;
+
+            h1 {
+                margin: 0 auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 55px;
+            }
+
+            p {
+                margin: 0 auto;
+                font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+                font-size: 31px;
+            }
+        }
+}
+
+.blog-page-content {
+    margin: 0 auto;
+    width: $nav-width;
+    margin-top: 56px;
+
+    .blog-page-title {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: $site-pink;
+    }
+
+    .blog-page-text {
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+        color: $site-black;
+    }
+}
+
+.footer-spacing {
+    height: 151px;
+}

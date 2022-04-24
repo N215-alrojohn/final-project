@@ -1,0 +1,84 @@
+.contact-title { 
+    margin: 0 auto;
+    width: $nav-width;
+    margin-top: 65px;
+    margin-bottom: 65px;
+
+    p {
+        border-bottom: 2px solid $site-black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 25px;
+        height: 40px;
+        width: 230px;
+    }
+}
+
+
+.contact-container {
+    margin: 0 auto;
+    width: $nav-width;
+    height: 442px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+
+    .contact-form {
+        width: 529px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        color: $site-black;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+        .small-form-box {
+            width: 100%;
+            height: 60px;
+            background-color: #F5F5F5;
+            p {
+                opacity: 50%;
+                padding: 21px;
+            }
+        }
+
+        .message-box {
+            width: 100%;
+            height: 199px;
+            background-color: #F5F5F5;
+            p {
+                opacity: 50%;
+                padding: 21px;
+            }
+        }
+    }
+
+    .contact-map {
+        width: 400px;
+        background-image: url(../images/map.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+
+.submit-button-container {
+    margin: 0 auto;
+    width: $nav-width;
+
+    .submit-button {
+        background-color: $site-pink;
+        height: 60px;
+        width: 167px;
+        margin-top: 21px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        p {
+            margin: 0 auto;
+            color: $site-white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 16px;
+        }
+    }
+}

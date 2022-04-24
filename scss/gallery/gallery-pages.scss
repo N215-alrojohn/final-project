@@ -1,0 +1,109 @@
+.foodfestival-header {
+    margin: 0 auto;
+    height: 400px;
+    width: $nav-width;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+            (rgba($site-yellow, 0.75)),
+            (rgba($site-yellow, 0.75))),
+            url(../images/gallery/1.png);
+}
+
+.dj-header {
+    margin: 0 auto;
+    height: 400px;
+    width: $nav-width;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        (rgba($site-pink, 0.75)),
+        (rgba($site-pink, 0.75))),
+        url(../images/gallery/2.jpeg);
+}
+
+.speech-header {
+    margin: 0 auto;
+    height: 400px;
+    width: $nav-width;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        (rgba($site-green, 0.75)),
+        (rgba($site-green, 0.75))),
+        url(../images/gallery/3.jpg);
+}
+
+.open-foodfest-header {
+    margin: 0 auto;
+    height: 400px;
+    width: $nav-width;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        (rgba($site-purple, 0.75)),
+        (rgba($site-purple, 0.75))),
+        url(../images/gallery/4.jpg);
+}
+
+.international-header {
+    margin: 0 auto;
+    height: 400px;
+    width: $nav-width;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+        (rgba($site-teal, 0.75)),
+        (rgba($site-teal, 0.75))),
+        url(../images/gallery/5.png);
+}
+
+
+.gallery-pages-title {
+    margin: 0 auto;
+    width: $nav-width;
+    display: flex;
+    text-shadow: 5px 5px 6px rgb(0, 0, 0, .16);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+    .number {
+        font-size: 300px;
+        margin-top: -334px;
+    }
+
+    .title {
+        font-size: 140px;
+        margin-top: -183px;
+    }
+}
+
+.gallery-pages-text {
+    margin: 0 auto;
+    margin-top: -30px;
+    width: $nav-width;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    margin-bottom: 70px;
+
+    p {
+        width: 40%;
+    }
+}

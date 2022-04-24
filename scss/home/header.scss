@@ -1,0 +1,61 @@
+header {
+    margin: 0 auto;
+    height: 500px;
+    width: $site-width;
+    margin-top: -143px;
+    background-image: linear-gradient(
+    (rgba($site-yellow, 0.75)),
+    (rgba($site-yellow, 0.75))),
+    url(../images/home-hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .header-text {
+        margin-top: 156px;
+        font-family: PTSerif;
+        font-size: 40px;
+        color: $site-white;
+    }
+
+    .header-subtitle {
+        margin-top: -5px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        color: $site-pink;
+    }
+
+    .small-header-text {
+        margin-top: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-style: italic;
+        font-size: 20px;
+        color: $site-white;
+        width: 420px;
+        text-align: center;
+    }
+
+    .headerbutton {
+        margin-top: 15px;
+        height: 40px;
+        width: 121px;
+        background-color: $site-pink;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+
+        a {
+            margin: 0 auto;
+            color: $site-white;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 15px;
+            text-decoration: none;
+        }
+    }
+}

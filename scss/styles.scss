@@ -1,0 +1,19 @@
+//structure
+@import "structure.scss";
+@import "variables.scss";
+@import "fonts.scss";
+@import "nav.scss";
+
+//content
+@import "home/header.scss";
+@import "home/quote.scss";
+@import "home/upcoming-events.scss";
+@import "about/about.scss";
+@import "gallery/gallery.scss";
+@import "gallery/gallery-pages.scss";
+@import "blog/blog.scss";
+@import "blog/blog-page.scss";
+@import "contact/contact.scss";
+
+//footer
+@import "footer/footer.scss";

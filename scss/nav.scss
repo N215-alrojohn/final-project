@@ -1,0 +1,99 @@
+.nav-white {
+    margin: 0 auto;
+    border-bottom: 2px solid $site-white;
+    height: 93px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: $nav-width;
+    position: relative;
+    z-index: 99;
+
+  .eventsy-logo {
+    height: 42px;
+    width: 92px;
+    background-image: url(../images/logo/logo-white.svg);
+  }
+      
+  .white-text {
+    color: $site-white;
+  }
+  
+  .black-text {
+    color: $site-black;
+  }
+
+  .pink-text {
+    color: $site-pink;
+  }
+  .links-container {
+    width: 372px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    span {
+      font-size: 20px;
+      font-style: italic;
+    }
+
+    a {
+      text-decoration: none;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      letter-spacing: 3px;
+      font-size: 15px;
+
+    }
+  }
+
+}
+
+.nav-black {
+  margin: 0 auto;
+  border-bottom: 2px solid $site-black;
+  height: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: $nav-width;
+  position: relative;
+    z-index: 99;
+
+.eventsy-logo {
+  height: 42px;
+  width: 92px;
+  background-image: url(../images/logo/logo-black.svg);
+}
+    
+.white-text {
+  color: $site-white;
+}
+
+.black-text {
+  color: $site-black;
+}
+
+.pink-text {
+  color: $site-pink;
+}
+.links-container {
+  width: 372px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  span {
+    font-size: 20px;
+    font-style: italic;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 3px;
+    font-size: 15px;
+
+  }
+}
+
+}
